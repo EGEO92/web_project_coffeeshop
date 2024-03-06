@@ -135,7 +135,61 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Nombre *</label>
+              <input
+                class="form__input form__item form__item_name"
+                type="text"
+                id="name"
+                placeholder="Nombre Apellido"
+                required
+              />
+              <label class="form__label" for="number"
+                >Número de comensales *</label
+              >
+              <input
+                class="form__input form__item form__item_number"
+                type="number"
+                id="number"
+                min="1"
+                max="8"
+                placeholder="1-8"
+                required
+              />
+              <label class="form__label" for="date">Fecha y hora *</label>
+              <input
+                class="form__input form__item form__input_date"
+                type="datetime-local"
+                id="date"
+                required
+              />
+              <label class="form__label" for="mail"
+                >Tu correo electrónico *</label
+              >
+              <input
+                class="form__input form__item form__input_mail"
+                placeholder="email@email.com"
+                type="email"
+                id="mail"
+                required
+              />
+              <button class="form__button form__item">Reservar una mesa</button>
+              <label class="form__label form__label_checkbox">
+                <input
+                  class="form__item form__checkbox"
+                  type="checkbox"
+                  required
+                />
+                <span class="form__item_checkbox-span"
+                  >Acepto los términos de uso</span
+                >
+              </label>
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="staff"></section>
       </main>
