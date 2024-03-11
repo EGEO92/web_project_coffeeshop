@@ -1,0 +1,51 @@
+.about {
+  background-color: #0a2850;
+  overflow: hidden;
+}
+.about__wraper {
+  position: relative;
+  overflow: hidden;
+  height: 542px;
+}
+
+.about__title {
+  margin: 0;
+  max-width: 251px;
+  color: #fff;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  z-index: 2;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.about__content {
+  margin: 0;
+  max-width: 660px;
+  position: absolute;
+  top: 119px;
+  right: 80px;
+  bottom: 173px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  z-index: 2;
+}
+.about__paragraph {
+  margin: 0;
+}
+.about__circle {
+  width: 426px;
+  height: 426px;
+  background-image: radial-gradient(#2f80ed 70%, #0a2850 10%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 1;
+}
