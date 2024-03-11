@@ -2,16 +2,6 @@
   align-items: center;
 }
 
-.reservation__form {
-  margin: auto;
-}
-
-.wraper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 .form__fieldset {
   max-width: 385px;
 }
